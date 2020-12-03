@@ -1,0 +1,28 @@
+svg {
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+
+#states *.on {
+  fill: red;
+}
+
+.list-of-states {
+  margin: 0;
+  padding: 0;
+  columns: 100px auto;
+  column-gap: 8px;
+  list-style: none;
+}
+.list-of-states li {
+  padding: 2px 4px;
+  display: inline-block;
+  width: 100%;
+}
+.list-of-states li.on {
+  background: red;
+  color: white;
+  font-weight: bold;
+}
