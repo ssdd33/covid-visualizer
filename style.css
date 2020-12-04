@@ -1,14 +1,20 @@
+
 svg {
-  display: block;
+  display:block;
+  
   width: 100%;
-  height: 400px;
+  height: 600px;
 }
 
 
 #states *.on {
   fill: red;
 }
-
+#info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .list-of-states {
   margin: 0;
   padding: 0;
@@ -25,4 +31,9 @@ svg {
   background: red;
   color: white;
   font-weight: bold;
+}
+.message{
+  width:4px;
+  height:3px;
+  background-color: blue;
 }
